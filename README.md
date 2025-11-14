@@ -7,7 +7,7 @@ I was fully responsible for designing the website, building the UI/UX, and creat
 
 The platform is designed to help students access course materials, tests, chat spaces, and premium educational services in a clean and intuitive interface.
 
-> 📌 Note: Lessons and tests have not been added because all educational content requires prior approval from trainers (because the project is related to the school).
+📌 Note: Lessons and tests have not been added because all educational content requires prior approval from trainers (because the project is related to the school).
 
 🎯 Features:
 
