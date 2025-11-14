@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #05071e;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 2.5%;
+}
+
+/* Logo OFlearn */
+.h33 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5625rem;
+  text-align: center;
+  scale: 1.1;
+  margin: auto;
+  overflow: hidden;
+}
+
+.a1 {
+  text-decoration: none;
+}
+.off {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 53, 135, 1) 0%,
+    rgba(11, 189, 224, 1) 63%
+  );
+  box-shadow: 0 0 5px rgb(0, 213, 255), 0 0 20px rgb(0, 213, 255),
+    0 0 40px rgb(0, 213, 255), 0 0 80px rgb(0, 213, 255);
+  text-shadow: 0 0 2px white;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 11%;
+  animation: SlideAway 1.2s ease-out forwards;
+}
+
+@keyframes SlideAway {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+/* End formatting Logo OFlearn */
+
+/* NavBar */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  margin: auto 5%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.Login {
+  background-color: rgba(11, 189, 224, 1);
+  border-radius: 10px;
+  height: 40%;
+  padding: 0% 10%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.Login:hover {
+  box-shadow: 0 0 5px rgb(0, 213, 255), 0 0 10px rgb(0, 213, 255),
+    0 0 20px rgb(0, 213, 255), 0 0 30px rgb(0, 213, 255);
+  text-shadow: 0 0 5px white;
+}
+
+.link:hover {
+  color: white;
+  scale: 1.04;
+  text-shadow: 0 0 10px rgb(0, 213, 255), 0 0 20px rgb(0, 213, 255),
+    0 0 30px rgb(0, 213, 255);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+/* End formatting NavBar*/
+
+/* content */
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85%;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Images Logo */
+.back {
+  display: flex;
+  width: 70%;
+  margin: auto auto;
+  scale: 0.8;
+  filter: drop-shadow(0 0 5px rgb(0, 200, 255))
+    drop-shadow(0 0 10px rgb(0, 200, 255))
+    drop-shadow(0 0 20px rgb(0, 200, 255))
+    drop-shadow(0 0 80px rgb(0, 200, 255));
+  transform: translateX(0px);
+  animation-name: oflearn;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+.back:hover {
+  animation-play-state: paused;
+}
+
+/* Titre */
+.h31 {
+  color: white;
+  margin-left: 5%;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.OFlearn {
+  display: inline;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 53, 135, 1) 0%,
+    rgba(11, 189, 224, 1) 63%
+  );
+  border-radius: 10px;
+}
+
+.p1 {
+  color: white;
+  margin-top: 3%;
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: justify;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.h32 {
+  color: white;
+  margin-top: 3%;
+  margin-left: 5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.button1 {
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: rgb(0, 213, 255);
+  border-radius: 10px;
+  border: none;
+  padding: 0.6rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.p2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.button1:hover {
+  scale: 1.01;
+  box-shadow: 0 0 5px rgb(0, 213, 255), 0 0 10px rgb(0, 213, 255),
+    0 0 20px rgb(0, 213, 255), 0 0 30px rgb(0, 213, 255);
+  text-shadow: 0 0 2px white;
+}
+
+@keyframes oflearn {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

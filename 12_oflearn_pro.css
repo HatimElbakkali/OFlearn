@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #05071e;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 2.5%;
+}
+
+/* Logo OFlearn */
+.h33 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5625rem;
+  text-align: center;
+  scale: 1.1;
+  margin: auto;
+  overflow: hidden;
+}
+
+.a1 {
+  text-decoration: none;
+}
+.off {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 53, 135, 1) 0%,
+    rgba(11, 189, 224, 1) 63%
+  );
+  box-shadow: 0 0 5px rgb(0, 213, 255), 0 0 15px rgb(0, 213, 255),
+    0 0 25px rgb(0, 213, 255);
+  text-shadow: 0 0 2px white;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 11%;
+  animation: SlideAway 1.2s ease-out forwards;
+}
+
+@keyframes SlideAway {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+/* End formatting Logo OFlearn */
+
+/* NavBar */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+  margin: auto 5%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.Login {
+  background-color: rgba(11, 189, 224, 1);
+  border-radius: 10px;
+  height: 40%;
+  padding: 0% 10%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.Login:hover {
+  box-shadow: 0 0 5px rgb(0, 213, 255), 0 0 10px rgb(0, 213, 255),
+    0 0 20px rgb(0, 213, 255), 0 0 30px rgb(0, 213, 255);
+  text-shadow: 0 0 5px white;
+}
+
+.link:hover {
+  color: white;
+  scale: 1.04;
+  text-shadow: 0 0 10px rgb(0, 213, 255), 0 0 20px rgb(0, 213, 255),
+    0 0 30px rgb(0, 213, 255);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+/* End formatting NavBar*/
+
+/* Logo OFlearn Pro */
+.titr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  width: 100%;
+  margin: 2.5% 0;
+}
+
+.title {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 53, 135, 1) 0%,
+    rgba(11, 189, 224, 1) 63%
+  );
+  box-shadow: 0 0 5px rgb(0, 213, 255), 0 0 20px rgb(0, 213, 255),
+    0 0 40px rgb(0, 213, 255), 0 0 80px rgb(0, 213, 255);
+  text-shadow: 0 0 3px white;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0 15px;
+}
+
+/* Content feature OFlearn Pro page1 */
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 1rem;
+  width: 96%;
+  margin-bottom: 9rem;
+  margin-top: 1rem;
+  margin-left: 2%;
+}
+
+.p1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.p2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.item-title {
+  color: white;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background: rgba(11, 189, 224, 1);
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.text {
+  color: white;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 1%;
+}
+
+.item {
+  text-align: justify;
+  padding: 2rem;
+  border: 2px solid rgba(0, 255, 255, 0.454);
+  border-radius: 10px;
+}
+
+#m1337 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* end content feature OFlearn Pro page1 */
+
+/* Method de Paiement page2 */
+.Paiement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title1 {
+  color: white;
+  font-size: 1.875rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.span2 {
+  background: rgba(11, 189, 224, 1);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.method {
+  display: flex;
+  height: 50px;
+  width: 35%;
+  border-radius: 10px;
+  border: none;
+  margin: 3% auto;
+}
+
+.method:hover {
+  scale: 1.02;
+}
+
+/* Image Visa master card */
+.img1 {
+  scale: 0.5;
+  margin-left: 1%;
+  padding-left: 140px;
+}
+
+/* Image Paypal */
+.img2 {
+  scale: 0.6;
+  padding-left: 340px;
+  margin-right: 10px;
+}
+
+/* Image Google Pay */
+.img3 {
+  scale: 0.5;
+  padding-left: 230px;
+}
+
+/* Image Apple Pay */
+.img4 {
+  scale: 0.5;
+  padding-left: 250px;
+}
+
+/* button method pay */
+.card {
+  display: inline;
+  white-space: nowrap;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: auto 3%;
+}
+/* Method de Paiement page2 */
