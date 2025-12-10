@@ -13,10 +13,10 @@ The platform is designed to help students access course materials, tests, chat s
 
   📚 Core Pages:
     Home – platform introduction
+    OFlearn Pro – premium services page
     Courses – placeholder structure ready for future content
     Tests – exam & quiz section
     Chat – concept page for student communication
-    OFlearn Pro – premium services page
     Login / SignUp – authentication pages
 
   🎨 Modern UI/UX:
@@ -35,22 +35,26 @@ The platform is designed to help students access course materials, tests, chat s
     use FlexBox and Animation with css no js.
 
 📁 Folder Structure:
-    
-    OFlearn_Project/
-    └── images/
-      ├── 
-    │── Oflearn.html
-    │── Oflearn.css
-    │── courses.html
-    │── courses.css
-    │── tests.html
-    │── tests.css
-    │── chat.html
-    │── chat.css
-    │── oflearn-pro.html
-    │── oflearn-pro.css
-    │── Login.html
-    │── Login.css
+
+    OFlearn/
+    └── Assets/
+        ├── Icon
+        ├── Images
+        ├── Logo
+    │── 01_Oflearn.html
+    │── 02_Oflearn.css
+    │── 03_oflearn-pro.html
+    │── 04_oflearn-pro.css
+    │── 05_cours.html
+    │── 06_cours.css
+    │── 07_test.html
+    │── 08_test.css
+    │── 09_chat.html
+    │── 10_chat.css
+    │── 11_Login.html
+    │── 12_Login.css
+    │── README.md
+
 
 🧑‍💻 Techniques used:
 
@@ -62,6 +66,7 @@ The platform is designed to help students access course materials, tests, chat s
     This project was developed with friends (by thinking and presenting the project to the professor) 
     within a school framework.
     I personally did:
+    -Building website
     -User interface design
     -Building UI/UX
     -Organize and arrange pages
@@ -69,22 +74,11 @@ The platform is designed to help students access course materials, tests, chat s
 
 📌 Project status
 
-    Prototype (Prototype) – Design and structure completed, However, the content (lessons and tests) is not added due to the need for professors' approval before publication.
+    Prototype (Prototype) – Design and structure completed, However, the content (lessons and tests) is not added due to the need for professors OFPPT' approval before publication.
 
 📬 Connect
 
     If you want to see more of my work or contact us:
-    all link in Social media: https://linktr.ee/HatimElbakkali.
+    all link in Social media: https://linktr.ee/HatimElbakkali
 
     and Thank you😊.
-
-
-
-
-
-
-
-
-
-
-
