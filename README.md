@@ -19,20 +19,20 @@ The platform is designed to help students access course materials, tests, chat s
         Chat – concept page for student communication.
         Login / SignUp – authentication pages.
 
-  🎨 Modern UI/UX:
-    A clean, engaging interface with icons, visuals, and smooth layout.
+    🎨 Modern UI/UX:
+      A clean, engaging interface with icons, visuals, and smooth layout.
 
-  💻 Responsive Design:
-    Fully responsive across desktop only.
+    💻 Responsive Design:
+      Fully responsive across desktop only.
 
-  ⚙️ Well-structured Code:
-    Organized files and sections ready for future expansion.
+    ⚙️ Well-structured Code:
+      Organized files and sections ready for future expansion.
 
-  🎨 Brand Identity:
-    custom colors, icons, and glow-style interface.
+    🎨 Brand Identity:
+      custom colors, icons, and glow-style interface.
 
-  ➕Add features:
-    use FlexBox and Animation with css no js.
+    ➕Add features:
+      use FlexBox and Animation with css no js.
 
 📁 Folder Structure:
 
