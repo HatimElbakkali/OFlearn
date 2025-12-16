@@ -1,4 +1,4 @@
-"# OFlearn" 
+# OFlearn 
 
 ⭐ Overview
 
@@ -11,13 +11,13 @@ The platform is designed to help students access course materials, tests, chat s
 
 🎯 Features:
 
-  📚 Core Pages:
-      Home – platform introduction.
-      OFlearn Pro – premium services page.
-      Courses – placeholder structure ready for future content.
-      Tests – exam & quiz section.
-      Chat – concept page for student communication.
-      Login / SignUp – authentication pages.
+    📚 Core Pages:
+        Home – platform introduction.
+        OFlearn Pro – premium services page.
+        Courses – placeholder structure ready for future content.
+        Tests – exam & quiz section.
+        Chat – concept page for student communication.
+        Login / SignUp – authentication pages.
 
   🎨 Modern UI/UX:
     A clean, engaging interface with icons, visuals, and smooth layout.
